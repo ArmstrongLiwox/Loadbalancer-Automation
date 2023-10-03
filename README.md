@@ -4,7 +4,7 @@
 
 > This course is an introduction to automation
 
->This projects how to automate the setup and maintenance of loadbalancer using a freestyle job, enhancing efficiency and and reducing manual effort.
+>This projects demonstrates how to automate the setup and maintenance of loadbalancer using a freestyle job, enhancing efficiency and and reducing manual effort.
 
 ---
 
@@ -16,14 +16,20 @@
 
 > Provision an EC2 instance
 
+![ec2 instance](images/ec2.png)
+
 > Open port 8000 to allow traffic
 
+![open port 8000](<images/open port 8000.png>)
+
 > Connect to the server uisng ssh
+
+![connect via ssh](<images/connect with ssh.png>)
 
 > Open a script file and paste code
 
 ```
-    sudo vi install.sh
+sudo vi install.sh
 ```
 
 ```
@@ -69,6 +75,8 @@ echo "<!DOCTYPE html>
 
 sudo systemctl restart apache2
 ```
+![install script](<images/install script.png>)
+
 
 > Change permmision on the file to make it executable
 
@@ -81,3 +89,10 @@ sudo chmod +x install.sh
 ```
 ./install.sh PUBLIC_IP
 ```
+![run install script](<images/run script.png>)
+
+
+
+
+
+
