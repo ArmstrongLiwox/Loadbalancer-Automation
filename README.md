@@ -183,5 +183,17 @@ sudo chmod +x nginx.sh
 
 ![run nginx script](<images/run nginx script.png>)
 
+> Web server 1
 
+![webserver one](<images/web server 1.png>)
+
+> Web server 2
+
+![webserver two](<images/web server 2.png>)
+
+> Balancer 
+
+![webserver balancer](<images/web server balancer.png>)
+
+# Thank You
 
